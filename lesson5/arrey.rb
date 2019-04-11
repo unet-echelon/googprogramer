@@ -1,0 +1,11 @@
+puts "Start"
+sleep 1
+puts "1"
+sleep 1
+puts "2"
+sleep 1
+puts "3"
+sleep 1
+puts "4"
+sleep 1
+puts "5"
