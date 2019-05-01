@@ -1,6 +1,6 @@
 names = ARGV[0]
 if names == nil
-	names "Anonimus"
+	names = "Anonimus"
 end
 
 puts "Hello #{names}! Ответьте на вопросы"
