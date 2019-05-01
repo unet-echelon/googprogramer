@@ -123,7 +123,7 @@ puts "7. Только плохие люди обманывают или крад
 "5) Екатерина не обманывает.", +
 "6) Все умозаключения не правильны."
 #user_imput = nil
-while user_imput != [1, 2, 3, 4, 5, 6]
+while user_imput != 
 	puts "Введите от 1 до 6"
 	user_imput = gets.to_i
 	if user_imput == 6
