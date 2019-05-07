@@ -11,7 +11,7 @@ def sklonenie (number, krokodil, krokodila, krokodilov) #Обявление па
 	if (ostatok >= 2 && ostatok <= 4)
 		return krokodila
 	end
-	if (ostatok > 4 || ostatok == 0)
+	if (ostatok >= 5 && ostatok <= 9 || ostatok == 0)
 		return krokodilov
 	end
 end
