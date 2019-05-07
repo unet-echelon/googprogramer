@@ -123,15 +123,14 @@ until  num_quesses == 3 || quessed_it
 	puts "У вас залишилось #{3 - num_quesses} спроби"
 	puts "введить відповідь: "
 	quess = gets.chomp
-	var = quess.chomp
-	var2 = 'H2O'
-	var3 = 'h2o'
+	var = quess.chomp.downcase
+	otvet = 'h2o'
 	num_quesses += 1
-	if var2 == var || var3 == var
+	if otvet == var
 		puts "Гарна робота"
 		puts "Ось тримай човен"
 		quessed_it = true
-	else var2 != var
+	else otvet != var
 		puts "Нажаль Ви неправельно надали відповідь!"
 	end
 end
