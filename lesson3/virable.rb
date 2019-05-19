@@ -1,5 +1,5 @@
-hello = "hello boys"
-hello2 = nil
+hello = "hello boys"#Присвоение прерименно значения
+hello2 = nil #Присовение пустого значения переменной
 hello2 = "hello girls"
 devchonky = nil
 if (devchonky != nil)

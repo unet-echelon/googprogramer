@@ -1,1 +1,1 @@
-puts 5.5.class.name
+puts "wert".class.name

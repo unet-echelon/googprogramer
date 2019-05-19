@@ -1,1 +1,1 @@
-puts 18.to_f
+puts 18.to_f #метод 
