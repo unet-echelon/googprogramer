@@ -1,1 +1,1 @@
-puts "wert".class.name
+puts "wert".class.name #String  -  клас строка
