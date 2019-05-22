@@ -1,9 +1,11 @@
 puts "Введите первое число"
-numb = gets.to_i
+a = gets.to_i
 puts "Введите второе число"
-numb1 = gets.to_i
+b = gets.to_i
 puts "Введите третье число"
-numb2 = gets.to_i
-
-numb0 = (numb + numb1 + numb2) / 3
-puts numb0
+c = gets.to_i
+d = (a + b + c) / 3
+puts 'Первое число:' + a.to_s
+puts 'Второе число:' + b.to_s
+puts 'Третье число:' + c.to_s
+puts 'Среднее:' + d.to_s
