@@ -15,4 +15,4 @@ basket.delete("mellon")
 puts puts "Корзина: " +basket.to_s
 
 basket.delete_at(0)
- puts basket.to_s
+puts basket.to_s
