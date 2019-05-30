@@ -1,6 +1,6 @@
 man = ["Гена", "Григорий", "Миша"]
 women = ["Катрина", "Лиза", "Маша"]
-manwomen = man + women
+manwomen = man + women #Обэдинение масивов в один
 sleep 3
 puts "Мужчини"
 puts man.to_s

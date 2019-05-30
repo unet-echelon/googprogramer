@@ -1,12 +1,13 @@
-puts "Какой длинни будет масив? "
 array = []
-lenght = gets.to_i
-random = rand(100).to_i
+puts "Какой длинни будет масив? "
+lenght = gets.to_i#Длина масива
+random = rand(100)#Генерация рандомных чисел
 while  array.size.to_i <= lenght.to_i - 1
 	array << random
-	random = rand(100)
+    random = rand(100)
 end
 puts array.to_s
+#вычисление самого большого числа
 puts "Самое большое число"
 maxs = 0
 for item in array do 
