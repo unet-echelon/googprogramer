@@ -1,8 +1,8 @@
 fruts = ["apple", "orange", "banana"] 
 puts "Масив: " + fruts.to_s
 
-basket =[]
-basket << "apple"
+basket =[] #Пустой масив
+basket << "apple" #Добавление елемента в масив
 basket.push("mellon")
 basket.push("Cherry", "Mango")
 puts "Корзина: " +basket.to_s
